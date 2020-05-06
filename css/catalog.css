@@ -1,0 +1,70 @@
+.content {
+    background-color: #333;
+    width: 76%;
+    padding: 2%;
+    margin: 3% auto;
+}
+
+.name-menu {
+    flex-basis: 15%;
+}
+
+.name-catalog a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active-link {
+    color: orange !important;
+}
+
+.menu {
+    display: none;
+}
+
+.product{
+    color: #fff;
+}
+
+.product img{
+    width: 100%;
+    height: auto;
+}
+
+.primer{
+    width: 15%; /* Делаем блоки шириной 30% от экрана */
+    float: left; /* Выравниваем элемент по левой стороне */
+    padding: 5%; /* Устанавливаем значение полей вокруг содержимого */
+    margin-left: 7%; /* Внутренний отступ от левого края */
+    margin-bottom: 7%;
+    color: aliceblue;
+    /* Внутренний отступ снизу */
+    text-align: center; /* Выравниваем текст по левому краю */
+    box-shadow: 0 0 20px rgba(250, 250, 250, 0.774); /* Задаем тень блоков */
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 13px;
+    border: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+price{
+    font-size: 16px; /*Задаем размер текста */
+}
+
+.active {
+    display: block;
+}

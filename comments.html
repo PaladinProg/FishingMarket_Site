@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fish ON | Отзывы</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/comments.css" />
+</head>
+<body onload="cartitemcount();counter();">
+    <header>
+        <div class="flex-container logo">
+            <h1 class="size-logo">Cеть рыболовных магазинов <br> Fish ON</h1>
+            <img class="size-logo" src="image/header/logo.png" alt="Logotype" />
+            <div class="size-logo">
+                <div class="info">
+                    <img src="image/header/map.png" alt="map" />
+                    <p>Московский проспект, 73</p>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="info phone">
+                    <img src="image/header/call.png" alt="phone" />
+                    <p>+7 (961) 334-73-29</p>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="flex-container nav">
+                <li><a href="home.html" style="display: block;">Главная</a></li>
+                <li><a href="menu.html" style="display: block;">Меню</a></li>
+                <li><a href="gallery.html" style="display: block;">Галерея</a></li>
+                <li><a href="comments.html" style="display: block;">Отзывы</a></li>
+                <li><a href="contact.html" style="display: block;">Контакты</a></li>
+                <li class="flex-container cart">
+                    <div class="one">
+                        <a href="cart.html" style="display: block;">Корзина</a>
+                    </div>
+                    <div class="two" id="itemcount">
+                        <p>0</p>
+                    </div>
+                </li>
+                <li><a href="login.php" style="display: block;">Авторизация</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <div class="flex-container comments">
+            <input id="name" placeholder="Введите ваше имя" type="text" class="text input-name">
+            <div class="flex-container comment">
+                <input id="comment" placeholder="Оставьте отзыв" type="text" class="text input-comment" />
+                <input type="button" class="button" onclick="newComment()" value="Отправить"/>
+            </div>
+        </div>
+
+        <div class="name">
+            <h2>Последние комментарии</h2>
+            <div class="line"></div>
+        </div>
+
+        <div id="user-comments" class="user-comments">
+            <div class="container">
+                <p class="user-name">Имя: <span>Kolya</span></p>
+                <p class="user-name">Комментарий: </p>
+                <p class="user-comment"> Soooo good</p>
+            </div>
+            <div class="container">
+                <p class="user-name">Имя: <span>Kolya</span></p>
+                <p class="user-name">Комментарий: </p>
+                <p class="user-comment"> Soooo good</p>
+            </div>
+        </div>
+    </div>
+    <footer class="flex-container foot">
+        <div class="block-foot about">
+            <p>&copy All rights reserved. 2020</p>
+			<p>Нас уже посетили: 328 человек</p>
+        </div>
+        <div class="block-foot link">
+            <p>Мы в социальных сетях:</p>
+            <div class="flex-container social">
+                <a href="#"><img src="image/footer/FB.png" alt="FB"></a>
+                <a href="#"><img src="image/footer/G.png" alt="Google"></a>
+                <a href="#"><img src="image/footer/t.png" alt="twitter"></a>
+                <a href=""><img src="image/footer/vk.png" alt="Vk"></a>
+            </div>
+        </div>
+        <div class="block-foot foot-nav">
+            <ul>
+                <li><a href="home.html">Главная</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="comments.html">Отзывы</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/comments.js"></script>
+    <script src="js/comment.js"></script>
+<script type="text/javascript" src="js/cartitemcount.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.content {
+    width: 80%;
+    margin: 2% auto;
+	background-color: #333;
+}
+
+.content h2 {
+    font-family: "Sitka Display";
+    color: #9a4800;
+	text-shadow: black 2px 3px 0;
+	font-size: 4em;
+    border-bottom: 1px solid #9a4800;
+}
+
+.content p {
+    background-color: #333;
+    padding: 2%;
+    color: #fff;
+    font-family: "Sitka Display";
+}
+
+.style1 {
+	width: 80%;
+    margin: 2% auto;
+	background-color: #333;
+}
+
+
+.style1 span{
+    padding: 2%;
+    color: #fff;
+    font-family: "Sitka Display";
+}
+
+.cartclear {
+    width: 12%;
+    height: 44px;
+    background-color: #333;
+    color: #fff;
+    font-family: "Sitka Display";
+    cursor: pointer;
+	font-size: 1.0em;
+	margin: 0 0 0 88%;
+}
+
+.cartclear:hover {
+    background-color: #9a4800;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 13px;
+    border: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+.fork{
+	background-color: #333;
+    padding: 2%;
+    color: #fff;
+    font-family: "Sitka Display";
+}	

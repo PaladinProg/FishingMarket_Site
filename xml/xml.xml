@@ -1,0 +1,111 @@
+<script id="purchase-order" type="application/xml">
+<purchaseOrder xmlns="http://example.mozilla.org/PurchaseOrderML">
+  <Figure>
+    <img>image/tramputdorv2.jpg</img>
+    <name>БрюкиTrampOutdorComfortV2</name>   
+    <price>2490</price>
+  </Figure>
+
+    <Figure>
+      <img>image/catalog/курткаtramp.PNG</img>
+      <name>Куртка Tramp Outdor Comfort</name> 
+      <price>3490</price>
+    </Figure>
+
+    <Figure>
+      <img>image/catalog/ножGanzo.PNG</img>
+      <name>Нож туристический Ganzo G7372-BK</name>   
+      <price>2270</price>
+    </Figure>
+
+    <Figure>
+      <img>image/catalog/спиннингCatana.PNG</img>
+      <name>Спиннинг CATANA EX SPINNING 210ML</name>   
+      <price>3390</price>
+    </Figure>
+
+    <Figure>
+      <img>image/catalog/удилищеsalmo.PNG</img>
+      <name>Удилище Salmo Diamond Bolognese Light MF 5m</name>   
+      <price>4290</price>
+    </Figure>
+
+    <Figure>
+      <img>image/catalog/катущкакатана.PNG</img>
+      <name>Катушка Catana 2500 FD</name>   
+      <price>3990</price>
+    </Figure>
+
+    <Figure>
+      <img>image/catalog/прикормdunaev.jpg</img>
+      <name>Прикормка Dunaev-Классика Универсальная</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/прикормdunaevуниверсальный.png</img>
+      <name>Прикормка Прикормка Dunaev Базовая смесь Универсальная</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/грузилаsalmo.png</img>
+      <name>Груз Salmo 1007-KP120 40322 набор</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/voblerrapala.png</img>
+      <name>Воблер RAPALA DHJ-12 FT</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/воблерgday.png</img>
+      <name>Воблер RAPALA CDE-75 GDAY</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/мормышкаБАНАН.png</img>
+      <name>Мормышка вольфр. БАНАН С УШКОМ</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/ретриверrapala.png</img>
+      <name>Ретривер RAPALA Retractable Lanyard</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/блеснаabu.png</img>
+      <name>Блесна Abu Garсia Reflex Arctic GOLD</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/блесна acme.png</img>
+      <name>Блесна Acme Kastmaster SW105 FT</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/червячница.png</img>
+      <name>Червячница Ч-1</name>   
+      <price>90</price>
+    </Figure>
+    
+    <Figure>
+      <img>image/catalog/сумкаgucci.png</img>
+      <name>Сумка Aquatic С-39X для кормушек, грузов, оснасток</name>   
+      <price>90</price>
+    </Figure>
+        
+    <Figure>
+      <img>image/catalog/ледобуротечественный.png</img>
+      <name>Ледобур Барнаульский ЛР-150Д</name>   
+      <price>90</price>
+    </Figure>
+</purchaseOrder>
+</script>   

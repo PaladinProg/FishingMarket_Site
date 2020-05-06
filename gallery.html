@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fish ON | Галерея</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body onload="cartitemcount();">
+    <!--Шапка сайта-->
+    <header>
+        <div class="flex-container logo">
+            <h1 class="size-logo">Cеть рыболовных магазинов <br> Fish ON</h1>
+            <img class="size-logo" src="image/header/logo.png" alt="Logotype" />
+            <div class="size-logo">
+                <div class="info">
+                    <img src="image/header/map.png" alt="map" />
+                    <p>Московский проспект, 73</p>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="info phone">
+                    <img src="image/header/call.png" alt="phone" />
+                    <p>+7 (961) 334-73-29</p>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="flex-container nav">
+                <li><a href="home.html" style="display: block;">Главная</a></li>
+                <li><a href="catalog.html" style="display: block;">Каталог</a></li>
+                <li><a href="gallery.html" style="display: block;">Галерея</a></li>
+                <li><a href="comments.html" style="display: block;">Отзывы</a></li>
+                <li><a href="contact.html" style="display: block;">Контакты</a></li>
+                <li class="flex-container cart">
+                    <div class="one">
+                        <a href="cart.html" style="display: block;">Корзина</a>
+                    </div>
+                    <div class="two" id="itemcount">
+                        <p>0</p>
+                    </div>
+                </li>
+                <li><a href="login.php" style="display: block;">Авторизация</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--Контент страницы-->
+    <div class="content">
+        <div id="slider" class="slider">
+            <div class="switch right" onclick="toogleSlide(1)"></div>
+            <div class="switch left" onclick="toogleSlide(-1)"></div>
+            <div class="clearfix"></div>
+        </div>
+        <p>На фотографиях выше показан один из наших магазинов в котором вы найдёте всё что нужно для хорошей рыбалки.<br/>
+            Так же вы можете почитать интересные рассказы о рыбалке по следующей <a href="gallery2.html">ссылке</a>.</p>
+    </div>
+    <!--Подвал сайта-->
+    <footer class="flex-container foot">
+        <div class="block-foot about">
+            <p>&copy All rights reserved. 2019</p>
+            <p>Нас уже посетили: 328 человек</p>
+        </div>
+        <div class="block-foot link">
+            <p>Мы в социальных сетях:</p>
+            <div class="flex-container social">
+                <a href="#"><img src="image/footer/FB.png" alt="FB"></a>
+                <a href="#"><img src="image/footer/G.png" alt="Google"></a>
+                <a href="#"><img src="image/footer/t.png" alt="twitter"></a>
+                <a href=""><img src="image/footer/vk.png" alt="Vk"></a>
+            </div>
+        </div>
+        <div class="block-foot foot-nav">
+            <ul>
+                <li><a href="home.html">Главная</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="comments.html">Отзывы</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

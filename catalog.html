@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/catalog.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+    <title>Fish ON | Корзина</title>
+</head>
+<body onload="connection();">
+    <object id="purchase-order" data="xml/xml.xml" type="text/xml" style="display: none;"></object>
+       <!--Шапка сайта-->
+        <header>
+        <div class="flex-container logo">
+            <h1 class="size-logo">Cеть рыболовных магазинов <br> Fish ON</h1>
+            <img class="size-logo" src="image/header/logo.png" alt="Logotype" />
+            <div class="size-logo">
+                <div class="info">
+                    <img src="image/header/map.png" alt="map" />
+                    <p>Московский проспект, 73</p>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="info phone">
+                    <img src="image/header/call.png" alt="phone" />
+                    <p>+7 (961) 334-73-29</p>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="flex-container nav">
+                <li><a href="home.html" style="display: block;">Главная</a></li>
+                <li><a href="catalog.html" style="display: block;">Каталог</a></li>
+                <li><a href="gallery.html" style="display: block;">Галерея</a></li>
+                <li><a href="comments.html" style="display: block;">Отзывы</a></li>
+                <li><a href="contact.html" style="display: block;">Контакты</a></li>
+                <li class="flex-container cart">
+                    <div class="one">
+                        <a href="cart.html" style="display: block;">Корзина</a>
+                    </div>
+                    <div class="two" id="itemcount">
+                        <p>0</p>
+                    </div>
+                </li>
+                <li><a href="login.php" style="display: block;">Авторизация</a></li>
+            </ul>
+        </div>
+    </header>
+       <!--Основной контент страницы-->
+        <div class="content">
+        <div class="flex-container product">
+           <!--Перечень товаров-->
+            <a href="#" class="primer">
+                <Figure>
+                    <div class="main-cart">
+                        <img src="image/catalog/trampoutdorv2.jpg"  class="main-cart-image" id="1">
+                        <div class="cart-title">
+                            <h4 class="cart-name" id="2">Брюки Tramp Outdor V2</h4>
+                            <p class="cart-price"><span class="price-value" id="3"></span> 2490 Р.</p>
+                        </div>
+                        <button class="button" data-id="1">Добавить в корзину</button>
+                    </div>
+                </Figure>
+            </a>
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <p><img src="image/catalog/%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0tramp.PNG" class="main-cart-image" id="4"></p>
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="5">Куртка Tramp Outdor Comfort V2</h4>
+                        <p class="cart-price"><span class="price-value" id="6"></span>3490 Р.</p>
+                    </div>
+                    <button class="button" data-id="2">Добавить в корзину</button>
+                </div>
+                </Figure>
+                </a>
+                
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%BD%D0%BE%D0%B6Ganzo.PNG" class="main-cart-image" id="7">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="8">Нож туристический Ganzo G7372-BK</h4>
+                        <p class="cart-price"><span class="price-value" id="9"></span>2270 Р.</p>
+                    </div>
+                    <button class="button" data-id="3">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D1%81%D0%BF%D0%B8%D0%BD%D0%BD%D0%B8%D0%BD%D0%B3Catana.PNG" class="main-cart-image" id="10">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="11">Спиннинг CATANA EX SPINNING 210ML</h4>
+                        <p class="cart-price"><span class="price-value" id="12"></span>3390 Р.</p>
+                    </div>
+                    <button class="button" data-id="4">Добавить в корзину</button>
+                </div>
+                </Figure>
+                </a>
+                
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D1%83%D0%B4%D0%B8%D0%BB%D0%B8%D1%89%D0%B5salmo.PNG" class="main-cart-image" id="13">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="14">Удилище Salmo Diamond Bolognese Light MF 5m</h4>
+                        <p class="cart-price"><span class="price-value" id="15"></span>4290 Р.</p>
+                    </div>
+                    <button class="button" data-id="5">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%BA%D0%B0%D1%82%D1%83%D1%88%D0%BA%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D0%BD%D0%B0.PNG" class="main-cart-image" id="16">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="17">Катушка Catana 2500 FD</h4>
+                        <p class="cart-price"><span class="price-value" id="18"></span>3990 Р.</p>
+                    </div>
+                    <button class="button" data-id="6">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%80%D0%BCdunaev.jpg" class="main-cart-image" id="19">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="20">Прикормка Dunaev-Классика Универсальная</h4>
+                        <p class="cart-price"><span class="price-value" id="21"></span>90 Р.</p>
+                    </div>
+                    <button class="button" data-id="7">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%80%D0%BCdunaev%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.png" class="main-cart-image" id="22">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="23">Прикормка Dunaev Базовая смесь Универсальная</h4>
+                        <p class="cart-price"><span class="price-value" id="24"></span>190 Р.</p>
+                    </div>
+                    <button class="button" data-id="8">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D0%BB%D0%B0salmo.png" class="main-cart-image" id="25">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="26">Груз Salmo 1007-KP120 40322 набор</h4>
+                        <p class="cart-price"><span class="price-value" id="27"></span>290 Р.</p>
+                    </div>
+                    <button class="button" data-id="9">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/voblerrapala.png" class="main-cart-image" id="28">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="29">Воблер RAPALA DHJ-12 FT</h4>
+                        <p class="cart-price"><span class="price-value" id="30"></span>590 Р.</p>
+                    </div>
+                    <button class="button" data-id="10">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog//%D0%B2%D0%BE%D0%B1%D0%BB%D0%B5%D1%80gday.png" class="main-cart-image" id="31">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="32">Воблер RAPALA CDE-75 GDAY</h4>
+                        <p class="cart-price"><span class="price-value" id="33"></span>950 Р.</p>
+                    </div>
+                    <button class="button" data-id="11">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%BC%D0%BE%D1%80%D0%BC%D1%8B%D1%88%D0%BA%D0%B0%D0%91%D0%90%D0%9D%D0%90%D0%9D.png" class="main-cart-image" id="34">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="35">Мормышка вольфр. БАНАН С УШКОМ</h4>
+                        <p class="cart-price"><span class="price-value" id="36"></span>150 Р.</p>
+                    </div>
+                    <button class="button" data-id="12">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D1%80%D0%B5%D1%82%D1%80%D0%B8%D0%B2%D0%B5%D1%80rapala.png" class="main-cart-image" id="37">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="38">Ретривер RAPALA Retractable Lanyard</h4>
+                        <p class="cart-price"><span class="price-value" id="39"></span>490 Р.</p>
+                    </div>
+                    <button class="button" data-id="13">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%B1%D0%BB%D0%B5%D1%81%D0%BD%D0%B0abu.png" class="main-cart-image" id="40">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="41">Блесна Abu Garсia Reflex Arctic GOLD</h4>
+                        <p class="cart-price"><span class="price-value" id="42"></span>220 Р.</p>
+                    </div>
+                    <button class="button" data-id="14">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%B1%D0%BB%D0%B5%D1%81%D0%BD%D0%B0%20acme.png" class="main-cart-image" id="43">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="44">Блесна Acme Kastmaster SW105 FT</h4>
+                        <p class="cart-price"><span class="price-value" id="45"></span>360 Р.</p>
+                    </div>
+                    <button class="button" data-id="15">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D1%87%D0%B5%D1%80%D0%B2%D1%8F%D1%87%D0%BD%D0%B8%D1%86%D0%B0.png" class="main-cart-image" id="46">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="47">Червячница Ч-1</h4>
+                        <p class="cart-price"><span class="price-value" id="48"></span>30 Р.</p>
+                    </div>
+                    <button class="button" data-id="16">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+               
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D1%81%D1%83%D0%BC%D0%BA%D0%B0gucci.png" class="main-cart-image" id="49">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="50">Сумка Aquatic С-39X для кормушек, грузов, оснасток</h4>
+                        <p class="cart-price"><span class="price-value" id="51"></span>950 Р.</p>
+                    </div>
+                    <button class="button" data-id="17">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            
+            <a href="#" class="primer">
+               <Figure>
+                <div class="main-cart">
+                    <img src="image/catalog/%D0%BB%D0%B5%D0%B4%D0%BE%D0%B1%D1%83%D1%80%D0%BE%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9.png" class="main-cart-image" id="52">
+                    <div class="cart-title">
+                        <h4 class="cart-name" id="53">Ледобур Барнаульский ЛР-150Д</h4>
+                        <p class="cart-price"><span class="price-value" id="54"></span>2190 Р.</p>
+                    </div>
+                    <button class="button" data-id="18">Добавить в корзину</button>
+                </div>
+                </Figure>
+            </a>   
+            </div>
+        </div>   
+        <!--Подвал сайта-->       
+    <footer class="flex-container foot">
+        <div class="block-foot about">
+            <p>&copy All rights reserved. 2019</p>
+            <p>Нас уже посетили: 328 человек</p>
+        </div>
+        <div class="block-foot link">
+            <p>Мы в социальных сетях:</p>
+            <div class="flex-container social">
+                <a href="#"><img src="image/footer/FB.png" alt="FB"></a>
+                <a href="#"><img src="image/footer/G.png" alt="Google"></a>
+                <a href="#"><img src="image/footer/t.png" alt="twitter"></a>
+                <a href=""><img src="image/footer/vk.png" alt="Vk"></a>
+            </div>
+        </div>
+        <div class="block-foot foot-nav">
+            <ul>
+                <li><a href="home.html">Главная</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="comments.html">Отзывы</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

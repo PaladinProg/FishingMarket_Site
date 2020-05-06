@@ -1,0 +1,63 @@
+.slider {
+    width: 80%;
+    margin: 3% auto 0;
+    position: relative;
+}
+
+.image {
+    display: none;
+}
+
+.image img {
+    max-height: 804px;
+}
+
+.active {
+    display: block;
+}
+
+.slider .image img {
+    width: 100%;
+}
+
+.switch {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.switch:hover {
+    background-color: #333333;
+    opacity: 0.3;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.content p {
+    width: 76%;
+    margin: 1% auto;
+    background-color: #333;
+    color: #fff;
+    font-family: "Sitka Display";
+    padding: 2%;
+}
+
+.content p a {
+    text-decoration: none;
+    color: orange;
+}
+
+.content p a:hover {
+    color: #9a4800;
+}

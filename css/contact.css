@@ -1,0 +1,15 @@
+.content {
+    width: 80%;
+    margin: 3% auto;
+}
+
+.content p {
+    color: #fff;
+    font-family: "Sitka Display";
+    background-color: #222;
+    padding: 1%;
+}
+
+.content img {
+    width: 100%;
+}
