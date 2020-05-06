@@ -27,7 +27,7 @@
         </div>
         <div class="navigation">
             <ul class="flex-container nav">
-                <li><a href="home.html" style="display: block;">Главная</a></li>
+                <li><a href="index.html" style="display: block;">Главная</a></li>
                 <li><a href="catalog.html" style="display: block;">Каталог</a></li>
                 <li><a href="gallery.html" style="display: block;">Галерея</a></li>
                 <li><a href="comments.html" style="display: block;">Отзывы</a></li>
@@ -44,17 +44,6 @@
             </ul>
         </div>
     </header>
-        <!--Контент страницы-->
-    <!--<div class="auth">
-        <form class="form-auth" >
-            <label class="text-label" for="login">Введите логин:</label>
-            <input class="input" id="login" type="text" />
-            <label class="text-label" for="pass">Введите пароль:</label>
-            <input class="input" id="pass" type="password" />
-            <input type="button" class="button" value="Войти">
-            <input type="button" class="button" value="Регистрация">
-        </form>
-    </div>-->
           <div class="auth">
         <div class="form-auth">
             <?php
@@ -86,7 +75,7 @@
         </div>
         <div class="block-foot foot-nav">
             <ul>
-                <li><a href="home.html">Главная</a></li>
+                <li><a href="index.html">Главная</a></li>
                 <li><a href="menu.html">Меню</a></li>
                 <li><a href="gallery.html">Галерея</a></li>
                 <li><a href="comments.html">Отзывы</a></li>
